@@ -47,6 +47,10 @@ h6 {
   visibility: hidden;
 }
 
+
+.text-danger{
+color: #f82249!important;
+}
 /* Prelaoder */
 
 #preloader {
@@ -146,6 +150,7 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  background-image: linear-gradient(45deg, black, transparent);
 }
 
 #header.header-scrolled,
@@ -320,7 +325,7 @@ h6 {
   margin: 4px 0 0 0;
   padding: 10px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  background: #fff;
+  background-color: rgb(24 30 47);
   border-radius: 3px;
 }
 
@@ -455,6 +460,76 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+/*
+.navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 12px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+}
+.navbar .dropdown ul li {
+  min-width: 200px;
+}
+.navbar .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: none;
+}
+
+.navbar .dropdown ul p {
+  padding: 0 20px 2px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: none;
+  color: #444855;
+}
+
+.navbar .dropdown ul hr {
+  margin: 0;
+}
+
+.navbar .dropdown ul a i {
+  font-size: 12px;
+}
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+  color: #f82249;
+  background: #f82249;
+}
+.navbar .dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+.navbar .dropdown .dropdown ul {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+.navbar .dropdown .dropdown:hover > ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+  .navbar .dropdown .dropdown:hover > ul {
+    left: -100%;
+  }
+}*/
+
+
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -499,6 +574,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: column;
   text-align: center;
   padding: 0 15px;
+  background-image: linear-gradient(45deg, black, transparent);
+
 }
 
 #intro h1 {
