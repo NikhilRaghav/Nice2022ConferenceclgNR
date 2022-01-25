@@ -771,11 +771,17 @@ Image in front page
 */
 
 .ssit-logo-home2{
-  width: 32%;
-  max-height: 47%;
+  width: 27%;
+  max-height: 27%;
   margin-bottom: 15px;
   /*display: inline-flex;*/
   vertical-align: middle;
+}
+@media (max-width: 767px){
+  .ssit-logo-home2{
+    width: 52%;
+    max-height: 52%;
+  }
 }
 
 
